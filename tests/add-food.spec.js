@@ -13,5 +13,3 @@ test('Lisage toidu test', async ({ page }) => {
   const addedItemName = await page.textContent('.collection-item:first-child strong');
   expect(addedItemName).toBe('Avokaado');
 });
-
-// Lisa siia rohkem teste vastavalt vajadusele.
